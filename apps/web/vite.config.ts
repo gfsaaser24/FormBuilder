@@ -8,9 +8,18 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      // Add alias for the core package
+      'formbuilder-core': path.resolve(__dirname, '../../packages/core/src'),
     },
+    // Ensure node_modules are properly resolved
+    dedupe: ['react', 'react-dom'],
+    preserveSymlinks: true
   },
   server: {
     port: 7017,
   },
+  // Configure optimizeDeps to include dependencies from core package
+  optimizeDeps: {
+    include: ['json-schema-to-zod']
+  }
 });
