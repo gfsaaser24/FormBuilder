@@ -1,7 +1,5 @@
-export * from "./codegen";
-export * from "./codegen/imports/generateImports";
-export * from "./types";
-export * from "./types/field";
-export * from "./types/fieldVariants/fieldVariants";
-export * from "./types/prettify";
-export * from "./utils";
+// Make sure we export COMPONENTS from the index file
+export * from './components';
+export * from './types';
+export * from './utils';
+export * from './codegen';
