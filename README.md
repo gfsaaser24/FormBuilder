@@ -32,13 +32,13 @@ To install the Form Builder and run locally, clone the repository and install th
 ```bash
 git clone https://github.com/kryptxbsa/FormBuilder.git
 cd FormBuilder
-bun install
+npm install
 ```
 
 After installation, you can start the development server:
 
 ```bash
-bun dev-web
+npm run dev-web
 ```
 
 Visit `http://localhost:7017` to see the application.
