@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from "@/components/theme-provider";
-import { Toaster } from "@/components/shared/Toaster";
+import { ThemeProvider } from "./components/theme-provider";
+import { Toaster } from "./components/shared/Toaster";
 import { SiteHeader } from './components/site-header';
 import { TailwindIndicator } from './components/tailwind-indicator';
 import HomePage from './pages/HomePage';
 import BuilderPage from './pages/BuilderPage';
 import TemplatesPage from './pages/TemplatesPage';
-import { fontSans } from "@/lib/fonts";
-import { cn } from "@/lib/utils";
+import { fontSans } from "./lib/fonts";
+import { cn } from "./lib/utils";
 
 function App() {
   return (

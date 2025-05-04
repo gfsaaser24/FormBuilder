@@ -8,11 +8,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      'formbuilder-core': path.resolve(__dirname, './packages/core/src')
     },
-  },
-  server: {
-    port: 7017,
-    open: true
   },
 })
