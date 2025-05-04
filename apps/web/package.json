@@ -45,7 +45,7 @@
 		"cmdk": "1.0.0",
 		"date-fns": "^4.1.0",
 		"emblor": "^1.4.7",
-		"formbuilder-core": "workspace:*",
+		"formbuilder-core": "1.0.0",
 		"handlebars": "^4.7.8",
 		"handlebars-loader": "^1.7.3",
 		"immer": "^10.1.1",
