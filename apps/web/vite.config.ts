@@ -12,6 +12,5 @@ export default defineConfig({
   },
   server: {
     port: 7017,
-    open: true
   },
 });
