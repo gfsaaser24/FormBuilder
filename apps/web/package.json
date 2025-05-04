@@ -9,8 +9,8 @@
 		"dev": "next dev -p 7017",
 		"build": "next build",
 		"start": "next start -p 7017",
-		"lint": "bunx @biomejs/biome lint . --apply-unsafe",
-		"format": "bunx @biomejs/biome format . --write",
+		"lint": "npx @biomejs/biome lint . --apply-unsafe",
+		"format": "npx @biomejs/biome format . --write",
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
@@ -43,7 +43,7 @@
 		"classnames": "^2.5.1",
 		"clsx": "^2.1.1",
 		"cmdk": "1.0.0",
-		"date-fns": "^4.1.0",
+		"date-fns": "^3.3.1",
 		"emblor": "^1.4.7",
 		"formbuilder-core": "1.0.0",
 		"handlebars": "^4.7.8",
